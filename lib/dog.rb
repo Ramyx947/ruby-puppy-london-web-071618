@@ -6,12 +6,13 @@ class Dog
    
    @@all << self
   end
-  def new_dog(name)
+  def name=(dog_name)
+    @this_dog_name = dogs_name 
     
   def dog_all
     @@all.each do |dog| print dog ,"_"
     end 
-  end
+  
   
 def clear_all
    @@all.clear 
