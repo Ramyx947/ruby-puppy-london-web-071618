@@ -4,6 +4,8 @@ class Dog
    @name = name
    
    @@all << self
+  end
   
+  deff 
   
 end
