@@ -1,7 +1,7 @@
 class Dog
  @@all = []
  
- def initialize(name)
+  def initialize(name)
    @name = name
    
    @@all << self
@@ -9,7 +9,7 @@ class Dog
   
   def dog_all
     @@all.each do {|v| print v ,"_"}
-  end 
+    end 
   end
   
 #   def clear_all
