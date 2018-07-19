@@ -6,7 +6,7 @@ class Dog
    @@all << self
   end
   def dog_all
-    puts 
+    @@all.each do 
     
   end
   
