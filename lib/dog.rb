@@ -9,7 +9,7 @@ class Dog
   def name=(dog_name)
     @this_dog_name = dogs_name 
    end  
-  def dog_all
+  def self.all
     @@all.each do |dog| print dog ,"_"
     end 
   end
