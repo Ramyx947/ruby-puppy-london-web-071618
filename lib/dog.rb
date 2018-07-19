@@ -6,6 +6,6 @@ class Dog
    @@all << self
   end
   
-  deff 
+  
   
 end
