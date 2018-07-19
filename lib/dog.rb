@@ -7,7 +7,7 @@ class Dog
   end
   def dog_all
     @@all.each do {|name| print name, " "}
-    
+  end 
   end
   
   def clear_all
