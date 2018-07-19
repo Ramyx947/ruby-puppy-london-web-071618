@@ -10,7 +10,7 @@ class Dog
     @this_dog_name = dogs_name 
    end  
   def self.all
-    @@all.each do |dog| dog(name) ," "
+    @@all.each do |dog| puts dog(name)
     end 
   end
   
