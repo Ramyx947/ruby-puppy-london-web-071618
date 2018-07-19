@@ -5,6 +5,10 @@ class Dog
    
    @@all << self
   end
+  def dog_all
+    puts 
+    
+  end
   
   def clear_all
     
