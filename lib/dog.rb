@@ -8,7 +8,7 @@ class Dog
   end
   
   def dog_all
-    @@all.each do {|name| print name, " "}
+    @@all.each do {|v| print v , " "}
   end 
   end
   
